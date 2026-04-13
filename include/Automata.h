@@ -1,3 +1,5 @@
+// Copyright 2025 GOSTOUH
+
 #ifndef INCLUDE_AUTOMATA_H_
 #define INCLUDE_AUTOMATA_H_
 
