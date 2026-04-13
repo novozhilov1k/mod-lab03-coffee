@@ -1,3 +1,5 @@
+// Copyright 2025 GOSTOUH
+
 #include <gtest/gtest.h>
 
 int main(int argc, char **argv) {
