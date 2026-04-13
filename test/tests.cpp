@@ -1,5 +1,3 @@
-// Copyright 2024 GOSTOUH
-
 #include <gtest/gtest.h>
 #include <fstream>
 #include "../include/Automata.h"

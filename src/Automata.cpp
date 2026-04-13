@@ -4,6 +4,8 @@
 #include <thread>
 #include <chrono>
 #include <iomanip>
+#include <vector>
+#include <string>
 
 Automata::Automata() : state(STATES::OFF), cash(0), selectedDrink(-1) {
   loadMenuFromFile("menu.txt");
@@ -196,7 +198,8 @@ void Automata::finish() {
     return;
   }
 
-  printMessage("Напиток \"" + menu[selectedDrink] + "\" готов! Можно забирать.");
+  printMessage("Напиток \"" + menu[selectedDrink] +
+               "\" готов! Можно забирать.");
 
   int change = cash - prices[selectedDrink];
   cash = 0;

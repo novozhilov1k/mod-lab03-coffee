@@ -1,5 +1,3 @@
-// Copyright 2024 GOSTOUH
-
 #include "Automata.h"
 #include <iostream>
 #include <thread>
